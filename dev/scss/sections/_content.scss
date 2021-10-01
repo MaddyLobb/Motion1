@@ -1,0 +1,43 @@
+#content {
+    display: grid;
+    grid-template-areas: ". content .";
+    grid-template-columns: auto 90% auto;
+    padding: 64px 0;
+
+    @include md {
+        grid-template-columns: auto 80% auto;
+        padding: 100px 0;
+    }
+
+    @include lg {
+        grid-template-columns: auto 80% auto;
+        padding: 128px 0;
+    }
+
+    @include xl {
+        grid-template-columns: auto 1440px auto;
+    }
+
+    >div {
+        grid-area: content;
+
+        @include lg {
+            padding: 0 30%;
+        }
+
+        h1 {
+            font-size: rem-calc(24);
+            font-family: 'Open Sans', sans-serif;
+            margin-bottom: 10px;
+            color: $brown;
+        }
+
+        p {
+            font-size: rem-calc(18);
+            font-family: 'Open Sans', sans-serif;
+            line-height: rem-calc(30);
+            color: $lightbrown;
+            text-align: justify;
+        }
+    }
+}
