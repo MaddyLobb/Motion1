@@ -21,22 +21,22 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/images\/header\/Logo.svg" : {
+    "\/deploy\/img\/header\/Logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/images\/header\/Logo.svg",
+      "oAP" : "\/deploy\/img\/header\/Logo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/images\/hero\/hero.jpg" : {
+    "\/deploy\/img\/hero\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 401956,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/images\/hero\/hero.jpg",
+      "oAP" : "\/deploy\/img\/hero\/hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
