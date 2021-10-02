@@ -485,7 +485,7 @@ header > div aside a {
   text-align: center;
 }
 #hero > div article section h1 {
-  font-size: 4rem;
+  font-size: 2.75rem;
   font-family: "Oswald", sans-serif;
   font-weight: 900;
   line-height: 117px;
@@ -493,12 +493,12 @@ header > div aside a {
 }
 @media (min-width: 768px) {
   #hero > div article section h1 {
-    font-size: 5.625rem;
+    font-size: 3.375rem;
   }
 }
 @media (min-width: 992px) {
   #hero > div article section h1 {
-    font-size: 6.25rem;
+    font-size: 4rem;
   }
 }
 
